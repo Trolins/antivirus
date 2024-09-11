@@ -84,7 +84,7 @@ const elements = []; //змінна масиву елементів із зап�
         document.getElementById('downloadIcon').classList.add('firefox');
         setTimeout(document.body.classList.remove('animating'), 2500)
     } else {
-        document.getElementById('downloadIcon').classList.add('firefox');
+        document.getElementById('downloadIcon').classList.add('chrome');
         setTimeout(document.body.classList.remove('animating'), 2500)
     }
     resetAnimation();
